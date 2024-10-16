@@ -25,7 +25,7 @@ function SearchSection() {
    
     <div className='p-2 md:p-6 
     border-[2px] rounded-xl'>
-        <p className='text-[20px] font-bold' >Get a ride</p>
+        <p className='text-[20px] font-bold' >Move your goods</p>
         <InputItem type='source' />
         <InputItem type="destination" />
 

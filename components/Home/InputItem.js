@@ -59,12 +59,25 @@ function InputItem({type}) {
             components:{
                 DropdownIndicator:false
             },
-            styles:{
-                control: (provided) => ({
-                    ...provided,
-                    backgroundColor:'#00ffff00',
-                    border:'none'
-                  }), 
+            styles: {
+              control: (provided) => ({
+                  ...provided,
+                  backgroundColor: '#00ffff00',
+                  border: 'none'
+              }),
+              singleValue: (provided) => ({
+                  ...provided,
+                  color: 'black' // Ensures the selected value is black
+              }),
+              option: (provided, state) => ({
+                  ...provided,
+                  color: state.isSelected ? 'white' : 'black', // Dropdown options will be black
+                  backgroundColor: state.isSelected ? '#00aaff' : 'white'
+              }),
+              input: (provided) => ({
+                  ...provided,
+                  color: 'black' // Ensures the input text is black
+              })
             }
           }}
          />

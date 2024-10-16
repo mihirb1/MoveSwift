@@ -1,43 +1,38 @@
 export const CarListData = [
     {
         id: 1,
-        name: 'Uber X',
-        seat: 4,
-        desc: 'Affordable, Everyday rides',
+        name: 'Standard Delivery',
+        desc: 'Affordable, reasonable shipping',
         amount: 1.1,
-        image: '/UberX_v1.png'
+        image: '/standard.png'
     },
     {
         id: 2,
-        name: 'Comfort',
-        seat: 4,
-        desc: 'Newer cars with extra legroom',
+        name: 'Large Delivery',
+        desc: 'For oversized packages',
         amount: 1.6,
-        image: '/UberComfort.png'
+        image: '/large.png'
     },
     {
         id: 3,
-        name: 'UberXL',
-        seat: 6,
-        desc: 'Affordable rides for groups up to 6',
+        name: 'Expedited Delivery',
+        desc: 'Same-day delivery guaranteed',
         amount: 1.9,
-        image: '/UberXL_New.png'
+        image: '/expedite.png'
     },
     {
         id: 4,
-        name: 'Uber Pet',
-        seat: 4,
-        desc: 'Affordable rides for you and your pet',
+        name: 'Safe Delivery',
+        desc: 'Ensure safe handling',
         amount: 1.4,
-        image: '/UberX_Pet.png'
+        image: '/safe.png'
     },
     {
         id: 5,
-        name: 'Black',
-        seat: 4,
-        desc: 'Affordable, Everyday rides',
-        amount: 1.1,
-        image: '/Black_v1.png'
+        name: 'Scheduled Delivery',
+        desc: 'Select a time frame for your needs',
+        amount: 1.3,
+        image: '/scheduled.png'
     },
 
 
